@@ -253,7 +253,7 @@ public class GameModesSP implements ActionListener{
             jButton.setVisible(true);
         }
         textField.setText("Betting Question " + (rounds + 1));
-        if (rounds >= 15) {
+        if (rounds >= 10) {
             Questions();
         }
     }
