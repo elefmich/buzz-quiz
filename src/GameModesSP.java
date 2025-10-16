@@ -269,7 +269,7 @@ public class GameModesSP implements ActionListener{
         answerButtonD.setVisible(true);
         textArea.setVisible(true);
 
-        if (rounds >= 11) {
+        if (rounds >= 10) {
             showResults();
         } else {
             do {
