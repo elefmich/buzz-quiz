@@ -9,7 +9,7 @@ public class Menu implements ActionListener{
     JButton mpButton = new JButton("Multiplayer");
     JTextField textField = new JTextField();
     JMenuBar menuBar = new JMenuBar();
-    JMenu menu = new JMenu("File");
+    JMenu menu = new JMenu("Help");
     JMenuItem exit = new JMenuItem("Exit");
     JMenuItem spInstr = new JMenuItem("SinglePlayer");
     JMenuItem mpInstr = new JMenuItem("MultiPlayer");
