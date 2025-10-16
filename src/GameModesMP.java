@@ -217,7 +217,7 @@ public class GameModesMP implements ActionListener,KeyListener {
         answerButtonD.setVisible(true);
         textArea.setVisible(true);
 
-        if(rounds >= 15){
+        if(rounds >= 11){
             showResults();
         }
         else{
