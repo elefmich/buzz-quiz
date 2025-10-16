@@ -173,11 +173,11 @@ public class GameModesMP implements ActionListener,KeyListener {
         timeArea.setVisible(false);
         thermoTimes++;
         textField.setText("Thermometer Question "+(rounds+1));
-        if(streak1 ==3){
+        if(streak1 == 3){
             keyboard_score += 5000;
             streak1 = 0;
         }
-        if(streak2 ==3){
+        if(streak2 == 3){
             mouse_score += 5000;
             streak2 = 0;
         }
